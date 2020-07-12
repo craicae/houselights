@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" href="styles.css">
-</head>
 <body>
-  <input id="ShowButton" type="button" value="Off">
-  <input id="ShowButton" type="submit" value="On">
-<script>
-  document.querySelector('#ShowButton').value = 'Hide';
-</script>
+  <p id="Overhead Light" onclick="myFunction()">Off</p>
+  <script>
+    function myFunction() {
+      document.getElementById("Overhead Light").innerHTML = "On";
+    }
+  </script>
 </body>
 </html>
